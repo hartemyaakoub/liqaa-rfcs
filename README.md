@@ -29,49 +29,49 @@ You don't need an RFC for:
 ## How the process works
 
 ```
-                  Idea
-                    │
-                    ▼
-    ┌──────────────────────────────────┐
-    │  1. Discussion (open issue here) │
-    │     anyone can propose           │
-    └──────────────┬───────────────────┘
-                    │
-                    ▼
-    ┌──────────────────────────────────┐
-    │  2. Draft RFC (PR with rfcs/    │
-    │     0NNN-name.md, copy template) │
-    └──────────────┬───────────────────┘
-                    │
-                    ▼
-    ┌──────────────────────────────────┐
-    │  3. Review (≥10 day review       │
-    │     window for substantial RFCs) │
-    └──────────────┬───────────────────┘
-                    │
-                    ▼
-    ┌──────────────────────────────────┐
-    │  4. Final comment period (7 day) │
-    └──────────────┬───────────────────┘
-                    │
-                    ▼
-              ┌─────┴─────┐
-              ▼           ▼
-        Accepted      Rejected
-              │
-              ▼
-       Tracking issue
-              │
-              ▼
-        Implementation
-              │
-              ▼
-       Shipped (closes RFC)
+ Idea
+
+
+
+ 1. Discussion (open issue here)
+ anyone can propose
+
+
+
+
+ 2. Draft RFC (PR with rfcs/
+ 0NNN-name.md, copy template)
+
+
+
+
+ 3. Review (≥10 day review
+ window for substantial RFCs)
+
+
+
+
+ 4. Final comment period (7 day)
+
+
+
+
+
+ Accepted Rejected
+
+
+ Tracking issue
+
+
+ Implementation
+
+
+ Shipped (closes RFC)
 ```
 
 ## RFC index
 
-| #   | Title | Status | Tracking |
+| # | Title | Status | Tracking |
 | --- | ----- | ------ | -------- |
 | [0001](./rfcs/0001-rfc-process.md) | Establish the RFC process | accepted | this repo |
 | 0002 | Idempotency keys on `POST /tokens` | proposed | — |
